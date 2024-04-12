@@ -11,7 +11,7 @@ My project's goal was to see how close I could get to the predictions of this ye
 
 Understanding this notion, I scraped NBA data from 1997-2023 to gather as many regular and advanced statistics as possible. From there, I parsed this data from HTML files, cleaned the data, and synthesized everything into clean CSV files. From there, I used these CSV files, along with RFEs Random Forest Regression models, to predict the NBA awards for this season. They are not out yet, but going off of recent betting odds for awards, I have gotten relatively close to the actual results.
 
-I will reupload the files on April 15th, 2024, as this is the last day of the NBA season. Only then will all of the statistics and data be up to date.  
+I will reupload the files on April 14th, 2024, as this is the last day of the NBA season. Only then will all of the statistics and data be up to date.  
 A few notes:
 - All HTML files came from the step_1:data_scrape.py file.
 - To run the step_2:data_parse.ipynb file, you need to have all of the HTML files in the correct directories or folders they are in, such as the player_stats, team_standings, and NBA_awards directories.
